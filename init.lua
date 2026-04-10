@@ -448,15 +448,15 @@ end)
 
 require("nvim-treesitter").setup({})
 
-require("nvim-treesitter.configs").setup({
-    ensure_installed = {"rust", "lua", "svelte"},
-    highlight = {
-        enable = true,
-    },
-    indent = { enable = true },
-    sync_install = true,
-    auto_install = true,
-})
+-- require("nvim-treesitter.configs").setup({
+--     ensure_installed = {"rust", "lua", "svelte"},
+--     highlight = {
+--         enable = true,
+--     },
+--     indent = { enable = true },
+--     sync_install = true,
+--     auto_install = true,
+-- })
 
 
 vim.pack.add({
