@@ -260,6 +260,7 @@ vim.keymap.set("n", "<C-L>", harpoon_ui.toggle_quick_menu)
 require("colorizer").setup({
     user_default_options = {
         tailwind = true,
+        names = false,
     }
 })
 
